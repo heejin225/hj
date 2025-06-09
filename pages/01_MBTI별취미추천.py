@@ -26,4 +26,14 @@ st.title("🌟 MBTI로 알아보는 퇴근 후 취미 🎯")
 st.markdown("당신의 MBTI를 선택하면, 오늘 하루를 마무리할 ✨편안한 취미✨를 추천해드려요! 😌")
 
 # MBTI 선택 드롭다운
-mbti_list = sorted(mbti_hobbies.keys
+mbti_list = sorted(mbti_hobbies.keys())
+selected_mbti = st.selectbox("👇 당신의 MBTI를 골라주세요!", mbti_list)
+
+# 추천 취미 보여주기
+if selected_mbti:
+    st.markdown(f"## 🎁 {selected_mbti} 유형에게 추천하는 퇴근 후 취미는?")
+    for hobby in mbti_hobbies[selected_mbti]:
+        st.markdown(f"- {hobby}")
+
+    st.balloons()  # 🎈 풍선 팡팡!
+    st.success("오늘 하루도 수고 많으셨어요! 🎉 취미로 힐링해요 🌿")
