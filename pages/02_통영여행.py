@@ -11,8 +11,12 @@ st.markdown("""
 👇 아래 코스를 참고해서 힐링을 준비해보세요!
 """)
 
-# 이미지 추가 (스트림릿은 URL 또는 로컬 경로 사용 가능)
-st.image("https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=b43b94c8-660f-4c6a-a0a8-4ae6e9c69a68", caption="동피랑 마을 전경 🎨", use_column_width=True)
+# 이미지 1: 동피랑 마을
+st.image(
+    "https://upload.wikimedia.org/wikipedia/commons/7/71/Tongyeong_Korea_Dongpirang_Mural_Village.jpg",
+    caption="🎨 동피랑 벽화마을의 감성 골목",
+    use_column_width=True
+)
 
 # DAY 1
 st.header("📍 Day 1 - 통영 도착 & 감성 코스")
@@ -30,7 +34,12 @@ st.markdown("""
   바닷가 근처 펜션 추천 🛌
 """)
 
-st.image("https://tong.visitkorea.or.kr/static/images/miruksan.jpg", caption="미륵산 케이블카에서 바라본 석양 🌇", use_column_width=True)
+# 이미지 2: 통영 전경
+st.image(
+    "https://upload.wikimedia.org/wikipedia/commons/1/11/Tongyeong_Korea_Dongpirang_Village_View.jpg",
+    caption="🌇 미륵산 전망대에서 내려다본 통영 시내",
+    use_column_width=True
+)
 
 # DAY 2
 st.header("📍 Day 2 - 바다와 섬의 하루")
@@ -48,7 +57,12 @@ st.markdown("""
   바다가 보이는 루프탑 카페에서 여유로운 오후 💙
 """)
 
-st.image("https://www.koreatodo.com/images/korea/south-korea-tongyeong-hansando-island-5.jpg", caption="한산도에서 보는 바다와 배 🌴", use_column_width=True)
+# 이미지 3: 통영 바다
+st.image(
+    "https://upload.wikimedia.org/wikipedia/commons/7/76/Tongyeong_Cable_Car_Sea_View.jpg",
+    caption="🚠 케이블카에서 내려다본 에메랄드빛 바다",
+    use_column_width=True
+)
 
 # DAY 3
 st.header("📍 Day 3 - 가볍게 마무리 🌤️")
@@ -58,14 +72,19 @@ st.markdown("""
 - 🧵 **통영 전통공예관 or 서피랑 책방 거리**  
   기념품 구경도 잊지 마세요!
 
-- 📦 **통영 중앙시장 재방문 (선물 구입)**  
+- 📦 **중앙시장 재방문 (선물 구입)**  
   꿀빵 포장하고 집으로~ 🎁
 
 - 🚗 **귀가길에도 감성 한 스푼**  
   바다를 마음에 담아 가세요 🌊💙
 """)
 
-st.image("https://cdn.visitkorea.or.kr/img/call?cmd=VIEW&id=4ee3bcf3-207e-4c2a-a72f-3f01a7f8357f", caption="서피랑의 조용한 거리 🌳", use_column_width=True)
+# 이미지 4: 서피랑 거리
+st.image(
+    "https://upload.wikimedia.org/wikipedia/commons/3/3a/Tongyeong_Seopirang_Village_Sign.jpg",
+    caption="📚 서피랑 마을 — 조용한 책방 골목",
+    use_column_width=True
+)
 
 # 마무리 멘트
 st.markdown("""
@@ -77,5 +96,5 @@ st.markdown("""
 가볍게 짐을 싸고, 푸른 통영 바다로 힐링하러 떠나보세요! 🌊  
 """)
 
-# 🎈 효과 (선택사항)
+# 🎈 효과
 st.balloons()
