@@ -36,5 +36,5 @@ if selected_mbti:
         st.markdown(f"- {place}")
     
     # 🎉 효과
-    st.snow()  # 눈 효과로 감성 UP!
+    # st.snow()  # 눈 효과로 감성 UP!
     st.success("여행 가고 싶어졌죠? 🥰 가볍게 떠나보아요!")
